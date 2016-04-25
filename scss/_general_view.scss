@@ -1,0 +1,29 @@
+body {
+	background: rgba(46,204,113,0.2);
+}
+
+.pastora-icon {
+	width:60px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+
+	img {
+		width: 100%;
+		max-width: 60%;
+		height: auto;
+	}
+}
+
+.map-view {
+	margin-top: 20px;
+}
+
+#map { 
+	height: 180px;
+	min-width: 200px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid black;
+}
