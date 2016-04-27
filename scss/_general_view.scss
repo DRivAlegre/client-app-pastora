@@ -1,16 +1,19 @@
 body {
-	background: rgba(46,204,113,0.2);
+	background: rgba(46, 204, 113, 0.4);
+}
+
+.scroll {
+	padding: 15px;
 }
 
 .pastora-icon {
-	width:60px;
+	width:90px;
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
 
 	img {
 		width: 100%;
-		max-width: 60%;
 		height: auto;
 	}
 }
@@ -19,11 +22,35 @@ body {
 	margin-top: 20px;
 }
 
+.figure-icon-animal {
+	width: 35%;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin-bottom: 12px;
+
+	&:hover {
+		background: rgba(0, 0, 0, 0.2);
+	}
+	&:nth-child(odd) {
+		margin-right: auto;
+	}
+	&:nth-child(even) {
+		margin-left: auto;
+	}
+
+	img {
+		width: 75%;
+		height: auto;
+		display: block;
+		margin: auto;
+	}
+}
+
+
 #map { 
-	height: 180px;
-	min-width: 200px;
+	height: 180px !important;
+	min-width: 200px !important;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
-	border:1px solid black;
 }

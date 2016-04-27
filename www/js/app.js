@@ -53,8 +53,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           templateUrl: 'templates/browse.html'
         }
       }
-    })
+  })
     
+  .state('app.change-info', {
+      url: '/change-info',
+      views: {
+        'menuContent': {
+          templateUrl: 'templates/input-information.html'
+        }
+      }
+  })
+
   .state('app.map', {
     url: '/map',
     views: {
