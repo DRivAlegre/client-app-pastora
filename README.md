@@ -11,4 +11,5 @@ Is the mobile hybrid client for Pastora SpaceApps project. Created with Ionic, C
 ## FIXME
 - Avoid landscape orientation
 - Map should fit the whole space
+- Add emergencies view
 
