@@ -9807,8 +9807,16 @@ body {
 .map-view {
   margin-top: 20px; }
 
+.col-6x {
+  width: 45%; }
+
+.emergencies-view figure {
+  width: 90px; }
+  .emergencies-view figure img {
+    width: 100%;
+    height: auto; }
+
 .figure-icon-animal {
-  width: 35%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   margin-bottom: 12px; }

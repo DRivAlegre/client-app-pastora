@@ -72,6 +72,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         controller: 'MapCtrl'
       }
     }
+  })
+  .state('app.emergencies', {
+    url: '/emergencies',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/emergencies.html'
+      }
+    }
   });
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/map');
