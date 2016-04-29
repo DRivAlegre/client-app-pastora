@@ -28,7 +28,16 @@ body {
 
 .emergencies-view {
 	figure {
-		width: 90px;
+		width: 50%;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-bottom: 20px;
+    	border: 1px solid rgba(0, 0, 0, 0.1);
+		border-radius: 4px;
+		
+		&:hover {
+			background: rgba(0, 0, 0, 0.2);
+		}
 
 		img {
 			width: 100%;
@@ -62,7 +71,7 @@ body {
 
 
 #map { 
-	height: 180px !important;
+	height: 300px !important;
 	min-width: 200px !important;
 	width: 100%;
 	margin-left: auto;
